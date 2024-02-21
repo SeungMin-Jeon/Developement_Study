@@ -12,8 +12,7 @@ public class BigIntegerEx {
 	
 	static String calcFactorial(int n) {
 		return factorial(BigInteger.valueOf(n)).toString();
-	}
-	
+	}	
 	static BigInteger factorial(BigInteger n) {
 		if(n.equals(BigInteger.ZERO))
 			return BigInteger.ONE;
