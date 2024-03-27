@@ -1,2 +1,5 @@
-package org.Fantasy;public interface WeaponBehavior {
+package org.Fantasy;
+
+public interface WeaponBehavior {
+    public void fight();
 }

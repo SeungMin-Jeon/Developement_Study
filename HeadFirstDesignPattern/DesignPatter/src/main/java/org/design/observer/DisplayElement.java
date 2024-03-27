@@ -1,2 +1,5 @@
-package org.design.observer;public interface DisplayElement {
+package org.design.observer;
+
+public interface DisplayElement {
+    public void display();
 }

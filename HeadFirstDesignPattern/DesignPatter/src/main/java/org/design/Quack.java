@@ -1,2 +1,7 @@
-package org.design;public class Quack {
+package org.design;
+
+public class Quack implements QuackBehavior{
+    public void quack() {
+        System.out.println("꽥");
+    }
 }
